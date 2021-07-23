@@ -14,12 +14,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #a0a6b3;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center;
+  justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -27,6 +27,78 @@
 .App-link {
   color: #61dafb;
 }
+
+.shadow {
+  margin: 30px 350px;
+}
+
+#todoinput {
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 43%;
+  border-bottom: 2px solid rgb(228, 97, 36);
+  outline: none;
+  display: inline-block;
+}
+#todoid {
+  min-height: 20px;
+  width: 35px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: rgb(16, 80, 3);
+  font-size: 16px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px black;
+}
+#todoid:hover {
+  background-color: blue;
+}
+ol {
+  list-style-type: none;
+}
+
+li {
+  font-family: sans-serif;
+  font-size: 19px;
+  margin-left: 42px;
+  color: darkblue;
+}
+.btn-close {
+  margin-top: 5px;
+  font-size: small;
+  background-color: red !important;
+  border-radius: 50% !important; 
+}
+.btn-close:hover {
+  opacity: 1;
+  background-color: red;
+}
+.bi {
+  background-color: green;
+  border-radius: 50%;
+  color: white;
+  width: 22px;
+  height: 21px;
+  font-size: 3px;
+  margin-left: 3px;
+  margin-top: 5px;
+}
+.bi:hover{
+  background-color: darkgreen;
+  opacity: 1;
+}
+
+#cimg {
+  width: 50%;
+}
+
 
 @keyframes App-logo-spin {
   from {
